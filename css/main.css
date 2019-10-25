@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+  background-color: #f0eee8;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card {
+  width: 20em;
+  border: 3px #9a816d solid;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #dcd4cd;
+}
+
+.link-card a {
+  font-family: 'Dosis', sans-serif;
+  text-decoration: none;
+  color: #512200;
+}
+
+.link-card h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.link-card p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.link-card dl {
+  border-top: 3px #9a816d solid;
+  border-bottom: 3px #9a816d solid;
+  display: grid;
+  grid-template: auto / 5em 1fr;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.link-card dd {
+  font-style: italic;
+}
+
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.btn button {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1rem;
+}
