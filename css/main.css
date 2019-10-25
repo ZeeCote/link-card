@@ -8,7 +8,7 @@ html {
   box-sizing: inherit;
 }
 
-.link-card {
+section {
   width: 20em;
   border: 3px #9a816d solid;
   border-radius: 8px;
@@ -16,7 +16,7 @@ html {
   background-color: #dcd4cd;
 }
 
-.link-card a {
+section .link-card {
   font-family: 'Dosis', sans-serif;
   text-decoration: none;
   color: #512200;
@@ -46,12 +46,13 @@ html {
 }
 
 .btn {
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
+  margin: 0 6em;
 }
 
-.btn button {
+.btn p {
   font-family: 'Dosis', sans-serif;
   font-size: 1rem;
+  border: 3px #785439 solid;
+  border-radius: 8px;
 }
