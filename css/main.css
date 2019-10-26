@@ -16,43 +16,68 @@ section {
   background-color: #dcd4cd;
 }
 
-section .link-card {
-  font-family: 'Dosis', sans-serif;
+.link-card {
+  font-family: Dosis, sans-serif;
   text-decoration: none;
   color: #512200;
 }
 
 .link-card h2 {
-  text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
+  display: block;
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
 .link-card p {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: inline-block;
+  margin: 0;
 }
 
 .link-card dl {
-  border-top: 3px #9a816d solid;
-  border-bottom: 3px #9a816d solid;
+  border-top: 2px #9a816d solid;
+  border-bottom: 2px #9a816d solid;
   display: grid;
   grid-template: auto / 5em 1fr;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 1rem 0;
+  font-size: .875rem;
 }
 
 .link-card dd {
   font-style: italic;
 }
 
-.btn {
+a .btn {
   text-align: center;
-  margin: 0 6em;
+  margin: 0 4em;
 }
 
-.btn p {
-  font-family: 'Dosis', sans-serif;
+a .btn p {
+  font-family: Dosis, sans-serif;
   font-size: 1rem;
   border: 3px #785439 solid;
   border-radius: 8px;
+  background-color: #785439;
+  font-weight: bold;
+  color: #fff;
+  padding: .4em .75em .5em;
+}
+
+/* Hover Effects */
+
+.link-card:hover {
+  border-color: #785439;
+  background-color: #cabdb2;
+}
+
+a dl:hover {
+  border-color: #785439;
+}
+
+a .btn p:hover {
+  border-color: #785439;
+  background-color: #785439;
 }
